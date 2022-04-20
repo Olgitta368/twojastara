@@ -7,7 +7,9 @@ int main()
 {
 	int lp = 0;
 	int p = 2;
-	int n = 15;
+	int n = 0;
+	cout << "Podaj liczbę \n";
+	cin >> n;
 	while (lp < n)
 	{
 		for (int d = 2; d <= p - 1; d++) {
